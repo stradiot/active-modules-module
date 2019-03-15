@@ -16,7 +16,7 @@ function update(moduleId, available) {
 };
 
 module.exports = {
-    activeModules;
+    activeModules,
     add,
     update,
     remove
