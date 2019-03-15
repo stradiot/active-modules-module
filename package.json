@@ -1,0 +1,11 @@
+{
+  "name": "active-modules-module",
+  "version": "1.0.0",
+  "description": "active modules array",
+  "main": "activeModules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Stradiot",
+  "license": "ISC"
+}
