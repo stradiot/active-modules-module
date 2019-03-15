@@ -11,4 +11,8 @@ function remove(moduleId) {
     delete activeModules[moduleId];
 };
 
-module.exports = activeModules;
+module.exports = {
+    activeModules;
+    add,
+    remove
+}
