@@ -1,4 +1,4 @@
-const activeModules = [];
+const activeModules = {};
 
 function add({ moduleId, available, moduleInfo }) {
     activeModules[moduleId] = {
