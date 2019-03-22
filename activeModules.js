@@ -1,9 +1,10 @@
 const activeModules = {};
 
-function add({ moduleId, available, moduleInfo }) {
+function add({ moduleId, available, info, type }) {
     activeModules[moduleId] = {
       available,
-      info: moduleInfo
+      info,
+      type
     };
 };
 
